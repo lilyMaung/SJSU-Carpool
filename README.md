@@ -69,5 +69,5 @@ This repository is one part of the CMPE 165 Project 1 submission. The full repor
 This is a class prototype. It has no production-grade authentication, no real driver verification, and no payment handling. Do not use it to arrange real rides without adding the safety and privacy protections described in our report.
  
 ## License
- 
-[Add a license if your instructor or team wants one, for example MIT, or note "For coursework use only."]
+
+For coursework use only.
