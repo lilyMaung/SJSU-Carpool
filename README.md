@@ -61,8 +61,8 @@ Driver license and insurance verification, ratings, a report button, and notific
  
 This repository is one part of the CMPE 165 Project 1 submission. The full report, presentation, and Loom demo are submitted separately:
  
-- Project report: [link or file name]
-- Loom demo (4 minutes): [Loom URL]
+- Project report: [https://docs.google.com/document/d/1tQEA38kc8Rc7u_Ds8B940aEVMCmQNFHYOlkTHN-Jhxk/edit?usp=sharing]
+- Loom demo (4 minutes): [https://www.loom.com/share/813c33cda42442e6963b14af623e2f28]
 - Calculation appendix (`monte_carlo.py`): [path in repo, if you include it, for example `analysis/monte_carlo.py`]
 ## Limitations
  
