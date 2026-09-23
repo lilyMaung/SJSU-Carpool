@@ -37,25 +37,28 @@ Driver license and insurance verification, ratings, a report button, and notific
  
 ## Tech Stack and Dependencies
  
-- Language: Java, HTML, CSS, Javascript
+- Language: Java, HTML, CSS, JavaScript
 
  
-## How to Try It
- 
-1. Open the app and create or select a driver, then post a trip with two open seats.
-2. Switch to a rider and request a seat with a pickup location.
-3. Switch back to the driver, open the map, review the pickup and its extra distance or time, and accept.
-[Adjust these steps to match your interface.]
+### How to Try It
+
+1. Open the application and choose Driver.
+2. Post a trip with the trip and vehicle information.
+3. Choose Rider, find the posted trip, and send a ride request with a pickup address.
+4. Go back to Driver, review the request, and accept or reject it.
+5. After accepting, test the pickup status, messaging, and cancellation features.
+
  
 ## AI-Assisted Development
- 
-**AI coding tools we used:** [for example ChatGPT, Claude, GitHub Copilot]
- 
-**What the AI helped us build:** [for example the database schema, the ride request form, the map display, this README]
- 
-**An example where AI-generated code did not work correctly or needed changes:** [Describe one specific case: what you asked for, what the AI produced, what was wrong, and how the team fixed it.]
- 
-**An important decision the human team made rather than the AI:** [Describe one specific decision, for example how to rank matches, which features to cut to stay within two weeks, or what data to store about riders.]
+
+**AI coding tools we used:** ChatGPT
+
+**What the AI helped us build:** AI helped us with brainstorming, Java code, the user interface, adding features, and fixing errors.
+
+**An example where AI-generated code did not work correctly or needed changes:** During development, the available seat number did not update correctly after a driver accepted a rider. We tested the application, found the problem, and fixed the code.
+
+**An important decision the human team made rather than the AI:** We decided to keep the prototype simple and not add live GPS, real SJSU authentication, or online payments because these features would make the project too large for the two-week development period.
+
  
 ## Project Management Deliverables
  
@@ -63,7 +66,8 @@ This repository is one part of the CMPE 165 Project 1 submission. The full repor
  
 - Project report: [https://docs.google.com/document/d/1tQEA38kc8Rc7u_Ds8B940aEVMCmQNFHYOlkTHN-Jhxk/edit?usp=sharing]
 - Loom demo (4 minutes): [https://www.loom.com/share/813c33cda42442e6963b14af623e2f28]
-- Calculation appendix (`monte_carlo.py`): [path in repo, if you include it, for example `analysis/monte_carlo.py`]
+
+  
 ## Limitations
  
 This is a class prototype. It has no production-grade authentication, no real driver verification, and no payment handling. Do not use it to arrange real rides without adding the safety and privacy protections described in our report.
